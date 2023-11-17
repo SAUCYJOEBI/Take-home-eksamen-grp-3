@@ -1,0 +1,45 @@
+% !TeX spellcheck = da_DA-Danish
+\documentclass[]{article}
+\usepackage[danish]{babel}
+%opening
+\title{Opgaver til Take-home eksamen}
+\author{Af: Alex, Marcus og Tom}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+\section{Dette er den officielle besvarelse af gruppe 3 til take-home eksamen i latex og git, hvor vi vil besvar følgende fire opgave}
+\section{Opgave 1-(februar 2015)}
+\normalsize {Denne opgave går ud på at kigge på, at kigge på mængden U, som fremgår i det lukkede interval [1;15].}
+\\
+\[ A = \{2n \mid n \in S\} \]
+\[ B = \{3n +2 \mid n \in S\} \]
+\[S = \{1,2,3,4\}\]
+\subsection{opgave a}
+\normalsize{a)} \[ A = \{2*1, 2*2, 2*3, 2*4 \}\]
+\normalsize{hvilket giver følgende resultat:} \[ A = \{2, 4, 6, 8 \}\]
+\textbf{Dette er fordi vores n tilhører værdierne i S, og er et produkt af vores n ganget med to}
+\subsection{opgave b}
+\normalsize{b)} \[ B = \{3*1+2, 3*2+2, 3*3+2, 3*4+2 \}\]
+\normalsize{hvilket giver følgende resultat:} \[ B = \{5, 8, 11, 14 \}\]
+\textbf{Dette er fordi vores n tilhører værdierne i S, og er et produkt af vores n ganget med tre med en sum af to lagt oveni}
+\subsection{opgave c}
+\normalsize{c)} \[ A \cap B = \{8 \}\]
+\textbf{Dette er fordi vores mængde kun tilhører de elementer, som A og B har, dette er hovedkravet!}
+\subsection{opgave d}
+\normalsize{d)} \[ A \cup B = \{2, 4, 5, 6, 8, 11, 14 \}\]
+\textbf{Dette er fordi vores mængde tilhører alle elementer, som A og B har, dette er hovedkravet!}
+\subsection{opgave e}
+\normalsize{e)} \[ A - B = \{2, 4, 6 \}\]
+\textbf{Dette er fordi vores mængde tilhører alle elementer, som A har, minus B, hvor det eneste element, de deler er tallet 8, som er det eneste tal man kan trække fra.}
+\subsection{opgave f}
+\normalsize{f)} \[ \bar{A}\ = \{1, 3, 5, 7, 9, 10, 11, 12, 13, 14, 15\}\]
+\textbf{Dette er fordi mængden består af den universelle mængde uden alle de elementer, der tilhører A, hvilket også indebærer tallet 8.}
+\section{Opgave 3-(januar 2009)}
+\normalsize {Denne opgave går ud på at kigge på, hvilke par, der tilhører R, for at finde ud af dette, skal vi først og fremmest kigge på, hvilke krav som a og b skal opfylde, før vi ved hvilke par, som tilhører R.}
+\end{document}
